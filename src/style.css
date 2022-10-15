@@ -1,1 +1,53 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.principal {
+  display: flex;
+  flex-wrap: wrap;
+  /*flex-direction: column;*/
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.carta {
+  width: 250px;
+  height: 400px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 3px 2px 2px rgb(30, 30, 30);
+  display: flex;
+  justify-content: space-around;
+}
+
+.icono-izquierdo {
+  font-size: 5rem;
+}
+
+.numero-padre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6.5rem;
+}
+
+.icono-derecho {
+  transform: rotate(180deg);
+  font-size: 5rem;
+}
+
+/*CLASES PARA LOS PALOS */
+.corazon,
+.diamante,
+.colorNumero {
+  color: red;
+}
+
+.as {
+  font-size: 8rem;
+}
+
+.letra {
+  font-size: 8rem;
+}
